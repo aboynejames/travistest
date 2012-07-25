@@ -1,4 +1,4 @@
-//var buster = require("buster");
+var buster = require("buster");
 var myLib = require("../src/index.js");
 
 buster.testCase("A test case", {

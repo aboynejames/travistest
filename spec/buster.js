@@ -1,10 +1,10 @@
 
 var config = exports;
 
-config['browser tests'] = {
+config['node tests'] = {
 rootPath: '../',
 
-environment: 'browser',
+environment: 'node',
 
 	
 tests: [
