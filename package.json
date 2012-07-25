@@ -1,0 +1,36 @@
+{
+    "name" : "Testapp",
+    "description" : "just learning by doing travis buster node",
+    "homepage": "http://www.aboynejames.co.uk>",
+    "version" : "0.0.1",
+    "author" : "James Littlejohn <james@aboynejames.co.uk> (https://twitter.com/aboynejames)",
+    "keywords": [
+        "aboyne",
+        "james",
+        "hacker",
+        "ll"
+    ],
+    "contributors": [
+        "some soon",
+        "and then some more",
+        "maybe a community"
+    ],
+    "scripts" : {
+        "test" : "spec/*/buster-test -r specification"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/aboynejames/travistest"
+    },
+    "bugs": {
+        "url": "https://github.com/aboynejames/travistest/issues"
+    },
+    "main": "./src/index.js",
+    "license": "MIT (http://)",
+    "devDependencies" : {
+        "buster" : ">=0.6.1"
+    },
+    "engines" : {
+        "node" : ">=0.6"
+    }
+}
