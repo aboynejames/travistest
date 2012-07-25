@@ -16,7 +16,7 @@
         "maybe a community"
     ],
 "scripts" : {
-        "test" : "node_modules/.bin/buster-test -r specification"
+        "test" : "node_modules/bin/buster-test -r specification"
     },
     "repository": {
         "type": "git",
