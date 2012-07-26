@@ -17,7 +17,7 @@ buster.testCase("Multi-environment", {
     "runs in all environments": function () {
         assert(true);
     },
-
+/*
     "sub context": {
         requiresSupportFor: { "DOM": typeof document != "undefined" },
 
@@ -25,4 +25,5 @@ buster.testCase("Multi-environment", {
             // ...
         }
     }
+*/
 });
