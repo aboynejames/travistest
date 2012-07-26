@@ -1,19 +1,38 @@
+var config = module.exports;
 
+config["Tests"] = {
+	rootPath: "../",
+    tests: ["spec/*-spec.js"]
+};
+
+config["Browser tests"] = {
+    extends: "Tests",
+    environment: "browser",
+    //sources: ["lib**/*.js"]
+};
+
+config["Node tests"] = {
+    extends: "Tests",
+    environment: "node"
+};
+
+
+/*
 var config = exports;
 
-config['node tests'] = {
+config['brower tests'] = {
 rootPath: '../',
 
-environment: 'node',
+environment: 'browser',
 
 	
-tests: [
+specs: [
 // find matching test specs as above sources
-'spec/*-test.js'
+'spec/*-spec.js'
 ]
 
 	
-/*
+
 libs: [
 'example/lib/mootools-core.js',
 // need ES5 shim for buster static and IE6/7/8
@@ -60,5 +79,6 @@ resources: [
 'example/data/1234-5123/*',
 'example/data/collection/*'
 ]
-*/
+
 };
+*/

@@ -15,7 +15,9 @@
         "and then some more",
         "maybe a community"
     ],
-
+"scripts" : {
+        "test" : "node_modules/.bin/buster-test -r specification"
+    },
     "repository": {
         "type": "git",
         "url": "https://github.com/aboynejames/travistest"
