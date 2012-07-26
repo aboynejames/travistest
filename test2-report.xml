@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <testsuites>
     <testsuite errors="0" tests="1" time="0" failures="0" name="Firefox 14.0.1, Linux">
-        <testcase time="0.002" classname="Firefox 14.0.1, Linux.Multi-environment" name="runs in all environments"/>
+        <testcase time="0.005" classname="Firefox 14.0.1, Linux.Multi-environment" name="runs in all environments"/>
     </testsuite>
 </testsuites>
 
