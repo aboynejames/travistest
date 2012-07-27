@@ -1,0 +1,1 @@
+<testsuite><testcase classname="unknown" name="Response is a success if 200 else a fail"><failure type="assertHttpStatus">HTTP status code is [33m200[0m</failure></testcase><testcase classname="unknown" name="Title is as expected"><failure type="assertTitle">Page title is "[33mLifestyleLinking[0m"</failure></testcase></testsuite>
