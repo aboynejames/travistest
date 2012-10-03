@@ -28,9 +28,9 @@
     "main": "./src/index.js",
     "license": "MIT (http://)",
     "devDependencies" : {
-        "buster" : ">=0.6.1"
+        "buster" : ">=0.6.0"
     },
     "engines" : {
-        "node" : ">=0.6"
+        "node" : "0.6"
     }
 }
