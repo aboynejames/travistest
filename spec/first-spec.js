@@ -9,9 +9,9 @@ buster.testCase("A test case", {
 })
 */
 
-if (typeof module == "object" && typeof require == "function") {
+//if (typeof module == "object" && typeof require == "function") {
     var buster = require("buster");
-}
+//}
 
 buster.testCase("Multi-environment", {
     "runs in all environments": function () {
