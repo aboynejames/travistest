@@ -5,11 +5,6 @@ config["Tests"] = {
     tests: ["spec/*-spec.js"]
 };
 
-config["Browser tests"] = {
-    extends: "Tests",
-    environment: "browser",
-    //sources: ["lib**/*.js"]
-};
 
 config["Node tests"] = {
     extends: "Tests",
